@@ -109,7 +109,7 @@ URL-REGEX,"^http:\/\/api\.weibo\.cn\/httpdns\/config",REJECT,extended-matching
 #############################################
 
 # hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, *api.weibo.cn, sdkapp.uve.weibo.com
-hostname = *.weibo.cn, *.weibo.com, weibo.com
+hostname = %APPEND% *.weibo.cn, *.weibo.com, weibo.com
 
 ############################################# 微博国际版去广告 #############################################
 # User-Agent: WeiboOverseas/6.3.8 (com.weibo.international; build:6.3.8.1; iOS 17.3.0) Alamofire/6.3.8
